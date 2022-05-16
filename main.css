@@ -1326,7 +1326,7 @@
 .slick-dots{
     position: absolute;
     left: 50%;
-    bottom: -50px;
+    bottom:0px;
     transform: translateX(-50%);
     list-style: none;
     display: flex;
