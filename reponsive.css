@@ -71,6 +71,10 @@
         --navbar-height: 0px;
         --header-with-search-height:46px;
     }
+    .logo{
+        width: 50px;
+        margin-left: 10px;
+    }
     .hide-on-table{
         display: none;
     }

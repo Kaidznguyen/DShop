@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="./reponsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-32x32.png">
+    <link rel="manifest" href="./favicon_io/site.webmanifest"></link>
 </head>
 <body>
     <div class="main">
@@ -111,7 +115,7 @@
                         </nav>                 
                     <div class="hd__logo hide-on-mobile">
                         <a href="index.html" class="hd__logo-link">
-                            <h1>DSHOP</h1>
+                            <img src="./img/app/D_free-file.png" alt="" class="logo">
                         </a>                          
                     </div>
                     <input type="checkbox" hidden id="mobile-search-checkbox" class="hd__search-checkbox">
@@ -520,7 +524,7 @@
         // hàm chuyển đổi form đăng ký sang đăng đăng nhập
             $('#switch-dn').click(function(){
                 $('.modal-register').css('display','none');
-            $('.modal-login').css('display','flex');
+                $('.modal-login').css('display','flex');
         });
         // đóng hàm đăng ký
         $('.back-btn').click(function(){
