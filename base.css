@@ -22,6 +22,10 @@ html{
     line-height: 15px;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+<<<<<<< HEAD
+=======
+/*     scroll-behavior: smooth; */
+>>>>>>> df01632dacdcc2e2ddcefb27478c514ac74ce7a3
 }
 /* animation */
 /* tạo animetion ẩn hiện */
