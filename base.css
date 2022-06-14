@@ -1,12 +1,16 @@
 /* gán 1 số thuộc tính */
 :root{
-    --primary-color:#ee4d2d;
+    --primary-color:#f95530;
     --white-color:#fff;
+    --white2-color:#ededed;
+    --white3-color:#f6f6f6;
     --black-color:#000;
     --text-color:#333;
     --text2-color:#777777;
     --border-color:#dbdbdb;
     --rating-color:#ffce3d;
+    --box-shadow:rgba(0, 0, 0, .08);
+    --box-shadow-hover:rgba(0, 0, 0, .2);
     --navbar-height: 25px;
     --header-height: 120px;
     --header-sort-bar-height: 46px;
@@ -22,10 +26,22 @@ html{
     line-height: 15px;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-<<<<<<< HEAD
-=======
-/*     scroll-behavior: smooth; */
->>>>>>> df01632dacdcc2e2ddcefb27478c514ac74ce7a3
+}
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+   
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px var(--text2-color);
+}
+   
+body::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    outline: 1px solid var(--primary-color);
+    border-radius: 20px;
+}
+body::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(249, 85, 48,.6);
 }
 /* animation */
 /* tạo animetion ẩn hiện */

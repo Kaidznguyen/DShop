@@ -92,15 +92,12 @@
                             <button class="hd__navbar-link register" >Đăng ký</button>
                         </li>
                         <!-- khi đăng nhập có xuất hiện tên và avarta user -->
-                        <!-- <li class="hd__navbar-item hd__navbar-user" >
-                            <img src="./img/girl.png" alt="" class="hd__navbar-user-img">
+                        <li class="hd__navbar-item hd__navbar-user" >
+                            <img src="./img/mô hình/luffy.png" alt="" class="hd__navbar-user-img">
                             <span class="hd__navbar-user-name">Nguyễn Đạt</span>
                             <ul class="hd__navbar-user-menu">
                                 <li class="hd__navbar-user-item">
-                                    <a href="">Tài khoản của tôi</a>
-                                </li>
-                                <li class="hd__navbar-user-item">
-                                    <a href="">Địa chỉ của tôi</a>
+                                    <a href="admin.html">Tài khoản của tôi</a>
                                 </li>
                                 <li class="hd__navbar-user-item">
                                     <a href="">Đơn mua</a>
@@ -109,7 +106,7 @@
                                     <a href="">Đăng xuất</a>
                                 </li>
                             </ul>
-                        </li> -->
+                        </li>
                     </ul>
                 </nav>
                 <!-- searrch -->
@@ -135,7 +132,7 @@
                         </nav>                 
                     <div class="hd__logo hide-on-mobile">
                         <a href="index.html" class="hd__logo-link">
-                            <img src="./img/app/D_free-file.png" alt="" class="logo">
+                            <img src="./img/app/logo-DShop.png" alt="" class="logo">
                         </a>                          
                     </div>
                     <input type="checkbox" hidden id="mobile-search-checkbox" class="hd__search-checkbox">
@@ -877,7 +874,7 @@
                     <!-- tạo btt cho authen form -->
                      <div class="auth-form__control">
                         <button class="btn auth-form__control-back btn--normal back-btn">TRỞ LẠI</button>
-                        <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                        <button class="btn btn--primary btn-login">ĐĂNG NHẬP</button>
                     </div>
                     <div class="auth-form__socials">
                         <a href="" class="btn btn--with-icon btn-size-s auth-form__socials-fb">
@@ -972,6 +969,11 @@
             $('html, body').animate({
                 scrollTop: 0
             }, 1000);
+        });
+        $('.btn-login').click(function(){
+            $('.modal-login').css('display','none');
+            $('.login,.register').addClass('hidden__user')
+            $('.hd__navbar-user').addClass('active__user')
         });
     });
     </script>
